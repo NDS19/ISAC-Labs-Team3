@@ -1,6 +1,0 @@
-iterative_v3 - r should be 64bits; valid_out <= valid_in; r <= a * b;
-pipelined_v1 - always_ff @(posedge clk); 16'h0000; 24'h000000
-rigister_1   - always_comb instead of always; if(reset = 1);  0:  read_data_a = reg0;
-            		       1:  read_data_a = reg1;
-            		       2:  read_data_a = reg2;
-            		       3:  read_data_a = reg3;
