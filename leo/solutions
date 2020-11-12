@@ -1,0 +1,24 @@
+//The format of the solution is
+line   correct value <=> wrong value 
+
+
+multiplier_parallel_tb
+30 negedge <=> posedge
+32  == <=> =
+
+
+multiplier_pipelined_tb
+
+18  clk = 1 <=> clk = 0;
+42  always_ff <=> always
+43  a <=> b
+44  b <=> a
+57  display  (changed the order of parameters)
+58  * <=> +
+59  clk <=> r
+
+register_file_tb
+
+46 integer <=> genvar
+56 posedge <=> negedge
+83 else <=> if
