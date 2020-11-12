@@ -1,0 +1,14 @@
+Iterative V1 
+-Line 24 =!
+-Line 46 Valid out assignment 
+-Line 31 Semi colon
+
+Pipeline V2
+-Line 14 logic bit length 
+-line 19 bitlength
+-line 23 assignment operator
+
+Reg File V2 
+-Line 15 Reg bitlength
+-Line 21 assignment operator
+-Line 34 regs[index]
