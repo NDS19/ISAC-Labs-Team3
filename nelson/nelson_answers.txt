@@ -1,0 +1,26 @@
+
+    lines for iterative_v0 are going to differ to the original unchanged files
+    because of commments i had made; these lines in just iterative_v0 correspond
+    to the file i uploaded only
+
+  multiplier_iterative_v0
+-line 30 - change i!= 32 to i<= 32
+    Note that apparently the program still works with this change
+-line 43 - removed 'posedge'
+-line 44 - swapped mp_next with mp
+-line 48 - changed i_next to i
+    Note that apparently the program still works with this change
+
+  pipelined_v4
+-line 6 - added a comma at the end of r
+-line 16 and 18 - swapped q0 and q2 around
+-line 23 - changed clk to clock
+  This may not actually change anything but i wanted to experiment
+-line 24 - added an extra begin
+
+  reg_file_tb_simple.v
+-line 1 - changed 100 to 1OO (with Os not zeroes/0s)
+-line 9 - changed bit size to 17
+-line 16 - changed dumpvars to dumpvariables
+-line 53 - nullified the rising edge by making clk = 0 instead of clk = 1
+-lines 78 and 79 - swapped write_index with write_data
